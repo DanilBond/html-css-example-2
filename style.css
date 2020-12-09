@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap');
 *{
     box-sizing: border-box;
 }
@@ -9,9 +9,12 @@ body, html{
 }
 body{
     background-color: rgb(29, 29, 29);
-   
+   font-weight: 300;
+   font-family: 'Roboto', sans-serif;
 }
-
+nav{
+    margin-bottom: 220px;
+}
 nav ul{
     display: flex;
     justify-content: center;
@@ -27,6 +30,7 @@ nav ul li{
 nav ul li a{
     text-decoration: none;
     font-size: 1rem;
+    font-weight: 500;
     color: white;
     font-family: 'Roboto', sans-serif;
 
@@ -35,6 +39,7 @@ nav ul li a:hover{
     transition: border-bottom opacity;
     transition-duration: 0.2s;
     padding-bottom: 5px;
+    font-weight: 500;
     border-bottom: 5px solid rgba(255, 255, 255, 0.5);  
 }
 
@@ -44,7 +49,7 @@ nav ul li a:hover{
    margin-right: 325px;
 }
 #Home__Div{
-    
+    font-weight: 500;
     color: white;
     font-family: 'Roboto', sans-serif;
 
@@ -53,4 +58,21 @@ nav ul li a:hover{
 #Home__Padding__Nav{
     margin-left: 30px;
     display: flex;
+}
+#Main__H1{
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    line-height: 1.2;
+    font-size: 40px;
+    text-align: center;
+}
+#Main__p{
+    font-family: 'Roboto', sans-serif;
+    max-width: 570px;
+    
+    margin: 0 auto;
+    font-size: 1.25rem;
+    color: white;
+    text-align: center;
 }

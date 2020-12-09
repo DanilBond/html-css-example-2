@@ -13,7 +13,7 @@ body{
    font-family: 'Roboto', sans-serif;
 }
 nav{
-    margin-bottom: 220px;
+    
 }
 nav ul{
     display: flex;
@@ -66,13 +66,34 @@ nav ul li a:hover{
     line-height: 1.2;
     font-size: 40px;
     text-align: center;
+    margin-bottom: 15px;
 }
 #Main__p{
+    
     font-family: 'Roboto', sans-serif;
     max-width: 570px;
-    
+    line-height: 30px;
     margin: 0 auto;
     font-size: 1.25rem;
     color: white;
     text-align: center;
+}
+#Main__flex__Button{
+    display: flex;
+    justify-content: center;
+}
+#Main__btn{
+    color: black;
+    background-color: white;
+    border-radius: 5px;
+    padding: 15px 20px;
+    font-size: 1.25rem;
+    margin-top: 20px;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+   font-weight: 500;
+}
+#Main__Flex__Main{
+    margin-top: 220px;
+  
 }

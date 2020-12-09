@@ -1,19 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
 *{
     box-sizing: border-box;
 }
 body, html{
     padding: 0;
     margin: 0;
+    
 }
 body{
     background-color: rgb(29, 29, 29);
+   
 }
+
 nav ul{
     display: flex;
     justify-content: center;
     align-items: baseline;
     padding: 0;
-    margin: 10px 0;
+    margin: 15px 0;
 }
 nav ul li{
     margin: 0 10px;
@@ -21,12 +25,26 @@ nav ul li{
 }
 nav ul li a{
     text-decoration: none;
-    font-size: 20px;
-}
-#Home__Padding{
+    font-size: 1rem;
     color: white;
+    font-family: 'Roboto', sans-serif;
+
+}
+nav ul li a:hover{
+    transition: border-bottom opacity;
+    transition-duration: 0.2s;
+    padding-bottom: 5px;
+    border-bottom: 5px solid rgba(255, 255, 255, 0.5);  
+}
+
+
+#Home__Padding{
+   
    margin-right: 300px;
 }
 #Home__Div{
-    font-size: 30px;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+
+    font-size: 1.75rem;
 }

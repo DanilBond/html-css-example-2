@@ -21,6 +21,7 @@ nav ul{
 }
 nav ul li{
     margin: 0 10px;
+    
     list-style-type: none;
 }
 nav ul li a{
@@ -40,11 +41,16 @@ nav ul li a:hover{
 
 #Home__Padding{
    
-   margin-right: 300px;
+   margin-right: 325px;
 }
 #Home__Div{
+    
     color: white;
     font-family: 'Roboto', sans-serif;
 
     font-size: 1.75rem;
+}
+#Home__Padding__Nav{
+    margin-left: 30px;
+    display: flex;
 }
